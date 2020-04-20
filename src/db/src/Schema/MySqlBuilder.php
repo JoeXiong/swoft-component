@@ -66,8 +66,8 @@ class MySqlBuilder extends Builder
         $columns = [
             'COLUMN_NAME as name',
             'DATA_TYPE as type',
-            'COLUMN_DEFAULT as default',
-            'COLUMN_KEY as key',
+            'COLUMN_DEFAULT as defaultColumn',
+            'COLUMN_KEY as keyColumn',
             'IS_NULLABLE as nullable',
             'COLUMN_TYPE as columnType',
             'COLUMN_COMMENT as columnComment',
